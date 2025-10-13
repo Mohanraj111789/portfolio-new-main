@@ -1,0 +1,58 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "AI-Powered Image Classifier",
+      "description": "Deep learning model using TensorFlow to classify images with 95% accuracy. Implemented CNN architecture for real-time image recognition.",
+      "category": "AI/ML",
+      "technologies": ["Python", "TensorFlow", "Keras", "NumPy"],
+      "github": "https://github.com/mohanraj",
+      "demo": null
+    },
+    {
+      "id": "2",
+      "title": "E-Commerce Web Platform",
+      "description": "Full-stack e-commerce application with user authentication, product catalog, and secure payment integration.",
+      "category": "Web Development",
+      "technologies": ["React", "Node.js", "MySQL", "Firebase"],
+      "github": "https://github.com/mohanraj",
+      "demo": "https://example.com"
+    },
+    {
+      "id": "3",
+      "title": "Sentiment Analysis Tool",
+      "description": "NLP-based sentiment analyzer using machine learning to classify text emotions with interactive dashboard visualization.",
+      "category": "AI/ML",
+      "technologies": ["Python", "Scikit-learn", "Pandas", "React"],
+      "github": "https://github.com/mohanraj",
+      "demo": null
+    },
+    {
+      "id": "4",
+      "title": "Task Management Dashboard",
+      "description": "Modern productivity app with real-time collaboration, drag-and-drop interface, and team management features.",
+      "category": "Web Development",
+      "technologies": ["React", "Firebase", "Tailwind CSS"],
+      "github": "https://github.com/mohanraj",
+      "demo": "https://example.com"
+    },
+    {
+      "id": "5",
+      "title": "Predictive Analytics Model",
+      "description": "Machine learning model for predictive analysis on large datasets with visualization of forecasting results.",
+      "category": "AI/ML",
+      "technologies": ["Python", "Pandas", "Scikit-learn", "Matplotlib"],
+      "github": "https://github.com/mohanraj",
+      "demo": null
+    },
+    {
+      "id": "6",
+      "title": "Weather Forecast App",
+      "description": "Real-time weather application with location-based forecasting and interactive weather maps.",
+      "category": "Web Development",
+      "technologies": ["React", "Node.js", "API Integration"],
+      "github": "https://github.com/mohanraj",
+      "demo": "https://example.com"
+    }
+  ]
+}

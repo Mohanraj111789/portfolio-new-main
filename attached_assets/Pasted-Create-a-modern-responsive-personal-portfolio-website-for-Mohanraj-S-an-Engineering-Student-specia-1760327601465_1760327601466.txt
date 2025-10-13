@@ -1,0 +1,64 @@
+Create a modern, responsive personal portfolio website for Mohanraj S, an Engineering Student specializing in Artificial Intelligence & Machine Learning at KIT – Kalaignar Karunanidhi Institute of Technology, Coimbatore.
+
+🎯 Requirements:
+
+The portfolio should be dynamic, interactive, and built using React + Tailwind CSS.
+
+Include smooth animations (using Framer Motion) and light/dark mode toggle.
+
+Use a clean professional color theme (dark with accent purple #4F46E5).
+
+🧍 About Section:
+
+Name: Mohanraj S
+
+Age: 18
+
+Degree: B.Tech in Artificial Intelligence & Machine Learning
+
+College: KIT – Kalaignar Karunanidhi Institute of Technology, Coimbatore
+
+Description: “I’m an enthusiastic engineering student passionate about Artificial Intelligence, Machine Learning, and Full-Stack Web Development. I enjoy building innovative solutions and exploring real-world applications of AI.”
+
+💻 Sections to Include:
+
+Home – Name, title, animated intro text, and “Hire Me” / “Download Resume” buttons.
+
+About – Education, interests, and professional summary.
+
+Skills – Display icons for:
+
+Programming: Python, Java, C++, C
+
+Frontend: HTML, CSS, React
+
+Backend: Node.js, Firebase, MySQL
+
+AI/ML Tools: TensorFlow, Scikit-learn, Pandas, NumPy
+
+Projects – Show cards for web development and AI/ML projects with GitHub links.
+
+Achievements – Mention participation in competitive programming, hackathons, and AI projects.
+
+Contact – Form + links to GitHub, LinkedIn, Email.
+
+🌐 Dynamic Features:
+
+Project section should be fetching data dynamically from a local JSON file (so future projects can be added easily).
+
+Include a typewriter effect for the tagline (e.g., “AI Enthusiast | Web Developer | Innovator”).
+
+Add a scroll-to-top button and smooth scroll for navigation.
+
+📦 Footer:
+
+Include copyright text:
+“© 2025 Mohanraj S | Designed & Developed with ❤️ using React”
+
+💅 Style:
+
+Minimal and elegant design.
+
+Use Tailwind utility classes for styling.
+
+Cards and buttons should have soft shadows and hover animations.
