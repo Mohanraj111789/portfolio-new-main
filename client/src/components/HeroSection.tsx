@@ -110,9 +110,25 @@ export function HeroSection() {
               variant="outline"
               className="rounded-full gap-2"
               data-testid="button-download-resume"
+              onClick={async () => {
+                try {
+                  const response = await fetch('/Mohanraj S_CV.pdf');
+                  const blob = await response.blob();
+                  const url = window.URL.createObjectURL(blob);
+                  const a = document.createElement('a');
+                  a.href = url;
+                  a.download = 'Mohanraj_S_Resume.pdf';
+                  document.body.appendChild(a);
+                  a.click();
+                  window.URL.revokeObjectURL(url);
+                  document.body.removeChild(a);
+                } catch (error) {
+                  console.error('Error downloading file:', error);
+                }
+              }}
             >
               <Download className="w-4 h-4" />
-              Download Resume
+              Download CV
             </Button>
           </motion.div>
         </div>
