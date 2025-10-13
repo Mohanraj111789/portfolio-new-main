@@ -2,12 +2,12 @@
   "projects": [
     {
       "id": "1",
-      "title": "AI-Powered Image Classifier",
-      "description": "Deep learning model using TensorFlow to classify images with 95% accuracy. Implemented CNN architecture for real-time image recognition.",
-      "category": "AI/ML",
-      "technologies": ["Python", "TensorFlow", "Keras", "NumPy"],
-      "github": "https://github.com/mohanraj",
-      "demo": null
+      "title": "Movie-Hunt",
+      "description": "Movie Hunt is a dynamic and user-friendly movie discovery and streaming platform designed to deliver the ultimate cinematic experience. Whether you're a fan of action-packed thrillers,",
+      "category": "Web Development",
+      "technologies": ["JavaScript", "React", "Node.js", "MySQL", "Firebase"],
+      "github": "https://github.com/Mohanraj111789/Movies-and-shows",
+      "demo": "https://movies-and-shows1.netlify.app/"
     },
     {
       "id": "2",
@@ -15,7 +15,7 @@
       "description": "Full-stack e-commerce application with user authentication, product catalog, and secure payment integration.",
       "category": "Web Development",
       "technologies": ["React", "Node.js", "MySQL", "Firebase"],
-      "github": "https://github.com/mohanraj",
+      "github": "https://github.com/Mohanraj111789/Movie-Hunt",
       "demo": "https://example.com"
     },
     {
