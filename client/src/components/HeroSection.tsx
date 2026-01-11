@@ -105,31 +105,22 @@ export function HeroSection() {
               <Mail className="w-4 h-4" />
               Hire Me
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="rounded-full gap-2"
-              data-testid="button-download-resume"
-              onClick={async () => {
-                try {
-                  const response = await fetch('/Mohanraj S_CV.pdf');
-                  const blob = await response.blob();
-                  const url = window.URL.createObjectURL(blob);
-                  const a = document.createElement('a');
-                  a.href = url;
-                  a.download = 'Mohanraj_S_Resume.pdf';
-                  document.body.appendChild(a);
-                  a.click();
-                  window.URL.revokeObjectURL(url);
-                  document.body.removeChild(a);
-                } catch (error) {
-                  console.error('Error downloading file:', error);
-                }
-              }}
-            >
-              <Download className="w-4 h-4" />
-              Download CV
-            </Button>
+   <Button
+  size="lg"
+  variant="outline"
+  className="rounded-full gap-2"
+  onClick={() => {
+    const link = document.createElement('a');
+    link.href = `${import.meta.env.BASE_URL}Mohanraj S_Updated CV.pdf`;
+    link.download = 'Mohanraj_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }}
+>
+  <Download className="w-4 h-4" />
+  Download CV
+</Button>
           </motion.div>
         </div>
 

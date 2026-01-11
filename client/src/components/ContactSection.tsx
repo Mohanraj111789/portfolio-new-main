@@ -33,19 +33,19 @@ export function ContactSection() {
     {
       name: "GitHub",
       icon: SiGithub,
-      url: "https://github.com/mohanraj",
+      url: "https://github.com/Mohanraj111789",
       color: "hover:text-gray-400",
     },
     {
       name: "LinkedIn",
       icon: SiLinkedin,
-      url: "https://linkedin.com/in/mohanraj",
+      url: "https://www.linkedin.com/in/mohanrajselvarasu/",
       color: "hover:text-blue-500",
     },
     {
       name: "Email",
       icon: Mail,
-      url: "mailto:mohanraj@example.com",
+      url: "mailto:mohantsk381@gmail.com",
       color: "hover:text-primary",
     },
   ];
