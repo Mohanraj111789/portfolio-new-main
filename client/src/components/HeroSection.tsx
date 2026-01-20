@@ -111,7 +111,7 @@ export function HeroSection() {
   className="rounded-full gap-2"
   onClick={() => {
     const link = document.createElement('a');
-    link.href = `${import.meta.env.BASE_URL}Mohanraj S_Updated CV.pdf`;
+    link.href = `${import.meta.env.BASE_URL}Mohanraj_CV_DEC.pdf`;
     link.download = 'Mohanraj_Resume.pdf';
     document.body.appendChild(link);
     link.click();
